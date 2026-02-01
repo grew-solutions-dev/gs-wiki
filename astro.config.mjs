@@ -7,7 +7,7 @@ export default defineConfig({
   site: process.env.CI
     ? "https://wiki.grew-solutions.de"
     : "http://localhost:4321",
-  base: process.env.CI ? "/wiki" : undefined,
+  base: process.env.CI ? "/gs-wiki" : undefined,
   integrations: [
     starlight({
       title: "Wiki - Grew Solutions",
